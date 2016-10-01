@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40ED04A1D9F6C78003131E6 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = C40ED0491D9F6C78003131E6 /* compass.png */; };
 		C46782EB1D9E166D002FCE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46782EA1D9E166D002FCE8B /* AppDelegate.swift */; };
 		C46782ED1D9E166D002FCE8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46782EC1D9E166D002FCE8B /* ViewController.swift */; };
 		C46782F01D9E166D002FCE8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46782EE1D9E166D002FCE8B /* Main.storyboard */; };
 		C46782F31D9E166D002FCE8B /* PokemonClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C46782F11D9E166D002FCE8B /* PokemonClone.xcdatamodeld */; };
 		C46782F51D9E166D002FCE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46782F41D9E166D002FCE8B /* Assets.xcassets */; };
 		C46782F81D9E166D002FCE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46782F61D9E166D002FCE8B /* LaunchScreen.storyboard */; };
+		C46783011D9E18FC002FCE8B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46783001D9E18FC002FCE8B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C40ED0491D9F6C78003131E6 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
 		C46782E71D9E166D002FCE8B /* PokemonClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46782EA1D9E166D002FCE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C46782EC1D9E166D002FCE8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C46782F41D9E166D002FCE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46782F71D9E166D002FCE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C46782F91D9E166D002FCE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46783001D9E18FC002FCE8B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46783011D9E18FC002FCE8B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				C46782E91D9E166D002FCE8B /* PokemonClone */,
 				C46782E81D9E166D002FCE8B /* Products */,
+				C46782FF1D9E18FC002FCE8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +66,20 @@
 				C46782EC1D9E166D002FCE8B /* ViewController.swift */,
 				C46782EE1D9E166D002FCE8B /* Main.storyboard */,
 				C46782F41D9E166D002FCE8B /* Assets.xcassets */,
+				C40ED0491D9F6C78003131E6 /* compass.png */,
 				C46782F61D9E166D002FCE8B /* LaunchScreen.storyboard */,
 				C46782F91D9E166D002FCE8B /* Info.plist */,
 				C46782F11D9E166D002FCE8B /* PokemonClone.xcdatamodeld */,
 			);
 			path = PokemonClone;
+			sourceTree = "<group>";
+		};
+		C46782FF1D9E18FC002FCE8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C46783001D9E18FC002FCE8B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40ED04A1D9F6C78003131E6 /* compass.png in Resources */,
 				C46782F81D9E166D002FCE8B /* LaunchScreen.storyboard in Resources */,
 				C46782F51D9E166D002FCE8B /* Assets.xcassets in Resources */,
 				C46782F01D9E166D002FCE8B /* Main.storyboard in Resources */,
@@ -306,6 +322,7 @@
 				C46782FE1D9E166D002FCE8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
